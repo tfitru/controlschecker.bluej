@@ -29,6 +29,10 @@
         * `cd ~/dev`
     * clone the project by executing the following command:
         * `git clone https://github.com/MYUSERNAME/NAMEOFPROJECT`
+    * navigate to the root directory of the project by executing the folowing command:
+        * `cd NAMEOFPROJECT`
+    * open this project in bluej by executing the following command:
+        * `open package.bluej`
 
 ### Part 4 - Check Build
 * Ensure that the tests run upon opening the project.
