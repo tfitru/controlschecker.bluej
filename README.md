@@ -1,12 +1,13 @@
-# Alice and Bob Name Evaluator
+# Control Checker
 
 * **Objective**
-    * To create a program which ...
+    * To create a product which simulates a control sensor for thermostats, fireplaces, and rocket engines. 
 * **Purpose**
-    * To gain familiarity with ...
+    * To gain familiarity the conditional operators.
 * **Description**
     * This application has been provisioned with JUnit tests and boilerplate classes, and method stubs.
     * Complete the method-stub implementation to achieve 100% test-pass rate.
+    * Click [here to view the javadocs](https://zipcoder.github.io/maven.controlschecker/docs/index.html)
 
 
 
@@ -29,14 +30,12 @@
         * `cd ~/dev`
     * clone the project by executing the following command:
         * `git clone https://github.com/MYUSERNAME/NAMEOFPROJECT`
-    * navigate to the root directory of the project by executing the folowing command:
-        * `cd NAMEOFPROJECT`
-    * open this project in bluej by executing the following command:
-        * `open package.bluej`
 
 ### Part 4 - Check Build
 * Ensure that the tests run upon opening the project.
     * You should see `Tests Failed: ${number-of-tests} of ${number-of-tests} tests`
+* Execute the command below to run `JUnit` tests from the command line.
+    * `mvn package -Dmaven.test.failure.ignore=true`
 
 
 
