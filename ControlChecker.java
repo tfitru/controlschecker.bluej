@@ -28,7 +28,7 @@ public class ControlChecker {
     /**
      * Write a method that returns "start fireplace!"
      * if `outsideTemperature` is less than `50` and
-     *    `insideTemperature` is less than `60`
+     *    `insideTemperature`  is less than `60`
      * else returns "stop fireplace!"
      */
     public String getFireplaceControls(int outsideTemperature, int insideTemperature) {
