@@ -16,6 +16,7 @@ public class FireplaceControlsTest {
      * @param outsideTemperature temperature of outside climate during this test case
      * @param expected           expected output from this test case
      */
+
     private void testFireplaceControls(int insideTemperature, int outsideTemperature, String expected) {
         // given
         ControlChecker controlChecker = new ControlChecker();

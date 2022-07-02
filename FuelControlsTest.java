@@ -30,7 +30,7 @@ public class FuelControlsTest {
     @Test
     public void testFuelControlsBurnFuel() {
         for (Double fuelLevel : new Double[]{0.79, 0.5, 0.1, Double.MAX_VALUE}) {
-            testFuelControls(fuelLevel, "refuel");
+            testFuelControls(fuelLevel, "burn fuel");
         }
     }
 

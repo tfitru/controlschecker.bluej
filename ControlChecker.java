@@ -13,7 +13,10 @@ public class ControlChecker {
      * else returns "less heat!"
      */
     public String getThermostatControls(int roomTemperature) {
-        return null;
+        if(roomTemperature < 70) {
+            return "more heat!";
+        }
+        return "less heat!";
     }
 
     /**
@@ -22,7 +25,11 @@ public class ControlChecker {
      * else returns "burn fuel"
      */
     public String getFuelControls(double fuelLevel) {
-        return null;
+        if(fuelLevel<=0.08){
+            return "refuel";
+        } else
+            return "burn fuel";
+
     }
 
     /**
@@ -32,7 +39,11 @@ public class ControlChecker {
      * else returns "stop fireplace!"
      */
     public String getFireplaceControls(int outsideTemperature, int insideTemperature) {
-        return null;
+        if(outsideTemperature < 50 && insideTemperature < 60) {
+         return "start fireplace!";
+        } else {
+            return "stop fireplace!";
+        }
     }
 }
 
